@@ -91,7 +91,6 @@ namespace VRStandardAssets.ShootingGallery
 
             // The game is now playing.
             IsPlaying = true;
-
             // Make sure the reticle is being shown.
             m_Reticle.Show ();
 
@@ -147,7 +146,7 @@ namespace VRStandardAssets.ShootingGallery
 
             // While there is still time remaining...
             while (gameTimer > 0f)
-            {
+            {				
                 // ... check if the timer for spawning has reached zero.
                 if (spawnTimer <= 0f)
                 {
